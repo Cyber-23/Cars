@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Ganesh Car</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"><h2>Renta<span>x</span></h2></a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link active" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li><a href="#cars" class="nav-link">Cars</a></li>
+					<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"> <i class="flaticon-phone-call"></i> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="tel:9050918482">9050918482</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Slider -->
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="item bg-img" data-overlay-dark="5" data-background="img/slider/11.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mb-30">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1>Buy & Sell Car</h1>
+                                    <h5>Toyota Fortuner <span>Rs.33.43 - 51.44 Lakh*</span></h5> <a href="#" data-scroll-nav="1" class="button-2 mt-15 mb-15">Book Now <span class="ti-arrow-top-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img" data-overlay-dark="5" data-background="img/slider/12.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mb-30">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1>Buy & Sell Car</h1>
+                                    <h5>Audi Q3 <span>Rs.43.81 - 53.17 Lakh*</span></h5><a href="#" data-scroll-nav="1" class="button-2 mt-15 mb-15">Book Now <span class="ti-arrow-top-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img" data-overlay-dark="5" data-background="img/slider/14.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mb-30">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1>Buy & Sell Car</h1>
+                                    <h5>Hyundai Creta <span>Rs.11 - 20.15 Lakh</span></h5> <a href="#" data-scroll-nav="1" class="button-2 mt-15 mb-15">Book Now <span class="ti-arrow-top-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+           <!-- Cars 1 -->
+           <section class="cars1 section-padding" id="cars">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-30">
+                        <div class="section-subtitle">Select Your Car</div>
+                        <div class="section-title">Luxury <span>Car Fleet</span></div>
+                    </div>
+                </div>
+                <div class="cars1-carousel owl-theme owl-carousel">
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/AUDI.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Audi Q3 Premium Plus 2015</a></div>
+                                    <div class="details"><span><i class="omfi-transmission"></i> Second Owner</span> <span><i class="omfi-luggage"></i> 90000km</span> <span><i class="omfi-age"></i>Lone Facility Available</span> </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">1250,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/Brezza.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Brezza vdi 2016</a></div>
+                                    <div class="details"> <span><i class="omfi-transmission"></i>First Owner</span> <span><i class="omfi-luggage"></i> 65000km</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">590,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/CIAZ.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Ciaz Vdi 2016</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i>New Alloy Tyres</span> <span><i class="omfi-transmission"></i> 65000km</span> <span><i class="omfi-age"></i>First Owner</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">525,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/CRETA.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Creta 1.5 SX</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i>Full Insured</span> <span><i class="omfi-transmission"></i>Curise Control</span> <span><i class="omfi-age"></i>First Owner</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">1550,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/ECOSPORT.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Ecosport Titanium Plus 2014 modal</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i>6 Airbags</span> <span><i class="omfi-transmission"></i> Both Keys</span><span><i class="omfi-age"></i>64000km</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">390,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/Ecosport1.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Ecosport Titanium 2018</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i>Diesel Variant</span> <span><i class="omfi-transmission"></i>60000km</span><span><i class="omfi-age"></i>First Owner</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">640,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/KING.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Fortuner 4x2 MT</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i>Diesel Variant</span> <span><i class="omfi-luggage"></i>Fully Insured</span> <span><i class="omfi-age"></i>First Owner</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">1450,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/HONDA-VX.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Honda Mobilio vx</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i> 7 Seats</span> <span><i class="omfi-transmission"></i>Diesel Variant</span> <span><i class="omfi-age"></i>First Owner</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">425,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/Wagonr.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Wagonr lxi 2013</a></div>
+                                    <div class="details"><span><i class="omfi-transmission"></i>All Genuine</span> <span><i class="omfi-luggage"></i>80000 Km</span> <span><i class="omfi-age"></i> Next to SowRoom</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">180,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img"> <img src="img/slider/HONDA.jpg" alt=""> </div>
+                        <div class="con opacity-1">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title"><a href="#">Honda City Vmt 2014 Oct.</a></div>
+                                    <div class="details"> <span><i class="omfi-door"></i> Diesel Variant</span> <span><i class="omfi-transmission"></i>58000km</span><span><i class="omfi-age"></i> Both Keys Bumper</span></div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="book">
+                                        <div><a href="cars.html" class="btn"><span>Details</span></a></div>
+                                        <div><span class="price">380,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- About -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-30">
+                    <div class="content">
+                        <div class="section-subtitle">Ganesh</div>
+                        <div class="section-title">Old for new? No problem! <span>A Ganesh Car Company</span></div>
+                        <p class="mb-30">
+                            Effortlessly sell your car at the best price through our online auction. Simply provide basic details and await top offers. Meanwhile, browse our website from the comfort of your couch to select your next dream car. We handle the entire process seamlessly, ensuring a smooth transition without hassle. Sell and buy with ease today!</p>
+                        <ul class="list-unstyled list mb-30">
+                            <li>
+                                <div class="list-icon"> <span class="ti-check"></span> </div>
+                                <div class="list-text">
+                                    <p>Sports and Luxury Cars</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-icon"> <span class="ti-check"></span> </div>
+                                <div class="list-text">
+                                    <p>Economy Cars</p>
+                                </div>
+                            </li>
+                        </ul> <a href="cars.html" class="button-1">Read More <span class="ti-arrow-top-right"></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-12">
+                    <div class="item"> <img src="img/about.jpg" class="img-fluid" alt="">
+                        <div class="curv-butn icon-bg">
+                            <a href="https://youtu.be/1LxcTt1adfY" class="vid">
+                                <div class="icon"> <i class="ti-control-play"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Car Category -->
+    <section class="car-types1 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Categories</div>
+                    <div class="section-title">Buy & Sell <span>Car Details</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"> <img src="img/cars/03.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>Luxury Cars</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/cars/04.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>Sport Cars</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/cars/02.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>SUV</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/cars/01.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>Convertible</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/cars/05.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>Sedan</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/cars/06.jpg" class="img-fluid" alt="">
+                            <div class="title">
+                                <h4>Small Cars</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="cars.html" class="vid">
+                                    <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Process -->
+    <section class="process section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Steps</div>
+                    <div class="section-title white">Ganesh Car <span>Process</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-30">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Choose A Car</h5>
+                            <p>View our range of cars, find your perfect car for the coming days.</p>
+                        </div>
+                        <div class="numb">
+                            <div class="numb-curv">
+                                <div class="number">01.</div>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Come In Contact</h5>
+                            <p>Our advisor team is ready to help you with the booking process or any questions.</p>
+                        </div>
+                        <div class="numb">
+                            <div class="numb-curv">
+                                <div class="number">02.</div>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Enjoy Driving</h5>
+                            <p>Receive the key and enjoy your car. We treat all our cars with respect.</p>
+                        </div>
+                        <div class="numb">
+                            <div class="numb-curv">
+                                <div class="number">03.</div>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mt-15">
+                    <p><span class="ti-info"></span> If you've never Buy & Sell a car before, we'll guide you through the process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video -->
+    <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle">Explore</div>
+                    <div class="section-title white">Car <span>Buy &</span> Sell</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-md-12">
+                    <a href="cars.html" class="button-2 mt-15 mb-15">Book Now <span class="ti-arrow-top-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials section-padding mt-15">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Testimonials</div>
+                    <div class="section-title">What Clients Say</div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>I knew what I wanted and I knew I wanted it from the get-go, because the condition of cars in our bazaars is poor in my experience. For the same or often even better money, you can buy a car abroad in top condition, with a high probability of having it serviced at an authorized service center, of acceptable mileage and age. Ganesh car company brought my chosen car from Kurukshetra. I'm glad that I didn't have to deal with the hassle of importing a car, that they completely arranged everything for me and handed me a car ready for use on Czech roads. Many thanks and keep up the good work!</p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/team/1.jpg" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>Dan Martin</h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>My husband and I bought our dream car. It's big enough for our whole family, and we can all pack comfortably into it for longer trips, and above all, it's safe and drives reliably. These were our main criteria. We decided on Ganesh car on the recommendation of friends and we do not regret it. The initial nervousness was soon replaced by joy, and the decisive factor was also the fact that Ganesh car gives the car a min. half a year warranty. So far, the car is working perfectly, I believe it will continue to be so, but it's nice to have some kind of "insurance" in case something goes wrong.</p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/team/4.jpg" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>Olivia Brown</h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>I chose a car according to my taste on Ganesh car. I have been loyal to the Škoda brand for many years and since it is necessary to move with the times, I chose the plug-in hybrid. What I like about the Superb is that it looks like a regular car and yet offers much more in terms of space and equipment. I am extremely satisfied with the services of Ganesh car. For the first time, I experienced buying a car when I didn't have to deal with anything at any office. Great. I recommend.</p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/team/6.jpg" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                            <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>Emily Martin</h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+      <!-- Team -->
+      <section class="team section-padding" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Sales Consultants</div>
+                    <div class="section-title">Our Experts<span> Team </span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/1.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="butn icon-bg">
+                            <a href="#" class="vid">
+                                <div class="icon"> <i class="ti-info"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Dan Martin</h4>
+                            <h6>Sales Consultant</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/4.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="info">
+                            <div class="butn icon-bg">
+                                <a href="#" class="vid">
+                                    <div class="icon"> <i class="ti-info"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h4>Emily Arla</h4>
+                                <h6>Sales Consultant</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/5.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="info">
+                            <div class="butn icon-bg">
+                                <a href="#" class="vid">
+                                    <div class="icon"> <i class="ti-info"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                        <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h4>Oliva White</h4>
+                                <h6>Sales Consultant</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/2.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="butn icon-bg">
+                            <a href="#" class="vid">
+                                <div class="icon"> <i class="ti-info"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Margaret Nancy</h4>
+                            <h6>Sales Department</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/6.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="butn icon-bg">
+                            <a href="#" class="vid">
+                                <div class="icon"> <i class="ti-info"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Mia Jane</h4>
+                            <h6>Finance Department</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="item"> <img src="img/team/3.jpg" class="img-fluid" alt="">
+                        <div class="bottom-fade"></div>
+                        <div class="butn icon-bg">
+                            <a href="#" class="vid">
+                                <div class="icon"> <i class="ti-info"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Micheal Brown</h4>
+                            <h6>Sales Consultant</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lets Talk -->
+    <section class="lets-talk bg-img bg-fixed section-padding" data-overlay-dark="5" data-background="img/slider/3.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6>Buy & Sell Your Car</h6>
+                    <h5>Interested in Buy & Sell?</h5>
+                    <p>Don't hesitate and send us a message.</p> <a href="https://api.whatsapp.com/send?phone=9050918482" class="button-1 mt-15 mb-15 mr-10"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a> <a href="cars.html" class="button-2 mt-15 mb-15">Book Now <span class="ti-arrow-top-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- Contact -->
+      <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Form -->
+                <div class="col-lg-6 col-md-12 mb-30">
+                    <div class="form-box">
+                        <h5>Get in touch</h5>
+                        <form method="post" class="contact__form" action="https://duruthemes.com/demo/html/Ganesh/dark/mail.php">
+                            <!-- form message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
+                                </div>
+                            </div>
+                            <!-- form elements -->
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" type="text" placeholder="Your Name *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="email" placeholder="Your Email *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="phone" type="text" placeholder="Your Number *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="subject" type="text" placeholder="Subject *" required>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <input name="submit" type="submit" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Map -->
+                <div class="col-lg-5 offset-lg-1 col-md-12">
+                    <h5>Location</h5>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.172568628144!2d76.8735858!3d29.9744702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e473ae3d7b88f%3A0x8ae553a47c115351!2sganesh%20cars!5e0!3m2!1sen!2sin!4v1712902095238!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- FAQs -->
+       <section class="faqs section-padding" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Frequently Asked Questions</div>
+                    <div class="section-title">Popular <span>Questions</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <ul class="accordion-box clearfix">
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">1.</span> Age and responsibility</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Driver must be 25+ years old to drive economy, luxury cars and supercars.</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">2.</span> Safe purchase</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">We guarantee the technical condition of every vehicle sold.</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">3.</span> Documents</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">A Goverment Id copy is required, Valid Driving License, Mobile number, Email address and Location and Time of delivery</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12"> <img src="img/about2.png" class="img-fluid" alt=""> </div>
+                <div class="col-lg-4 col-md-12">
+                    <ul class="accordion-box clearfix">
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">4.</span> Car Delivery</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">At the time of Delivery our team will contact And Deliver the car to your Location. On spot, You will check the car, Sign the contract & receive the key. Enjoy your ride !</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">5.</span> Enquire Now</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">You can contact us for a quotation & our team will assist you with the booking process. You can use the contact methods available on this page.</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                            <div class="acc-btn"><span class="count">6.</span> Payment Methodes</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">We offer a variety of payment methods. We accept cash, of credit cards such as Visa, MasterCard and American Express.</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Clients -->
+     <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/7.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/8.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <!-- first footer -->
+            <div class="first-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="links dark footer-contact-links">
+                            <div class="footer-contact-links-wrapper">
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Call us</h6>
+                                        <p>+91 90509-18482</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="omfi-envelope"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Write to us</h6>
+                                        <p>info@Ganesh.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="omfi-location"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Address</h6>
+                                        <p>Pipli Rd, opposite chatha complex, Sector 7, Kurukshetra, Haryana 136118</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second footer -->
+            <div class="second-footer">
+                <div class="row">
+                    <!-- about & social icons -->
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <div class="footer-logo"><img src="img/logo-light.png" alt=""></div>
+                            <!-- <div class="footer-logo"><h2>CARE<span>X</span></h2></div> -->
+                            <div class="widget-text">
+                                <p>Select your car online, we inspect and deliver it to you hassle-free. Enjoy convenience and peace of mind with our service.</p>
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quick links -->
+                    <div class="col-md-3 offset-md-1 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#cars">Cars</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- subscribe -->
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Subscribe</h3>
+                            <p>Selling a car? We’re buying</p>
+                            <div class="widget-newsletter">
+                                <form action="#">
+                                    <input type="email" placeholder="Email Address" required>
+                                    <button type="submit"><i class="ti-arrow-top-right"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom footer -->
+            <div class="bottom-footer-text">
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="mb-0">&copy;2024 <a href="https://cybersolvings.com/">Cybersolvings</a>. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
