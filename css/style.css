@@ -787,7 +787,7 @@ hr {
     color: #fff;
 }
 .nav-scroll .logo-img {
-    width: 130px;
+    width: 66px;
 }
 .nav-scroll .logo-img {
     margin-bottom: 0px;
@@ -832,7 +832,7 @@ hr {
     padding: 0;
 }
 .logo-img {
-    width: 130px;
+    width: 66px;
     text-align: center;
 }
 .dropdown .nav-link i {
@@ -1012,7 +1012,7 @@ hr {
         background-color: transparent;
     }
     .nav-scroll .logo-img {
-        width: 130px;
+        width: 50px;
     }
     .navbar .logo {
         text-align: left;
@@ -1021,7 +1021,7 @@ hr {
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 130px;
+        width: 50px;
         padding: 0;
     }
     .navbar button {
